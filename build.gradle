@@ -26,6 +26,6 @@ repositories {
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-groovy-templates')
 	compile('org.springframework.boot:spring-boot-starter-web')
-	compile group: 'mysql', name: 'mysql-connector-java', version: '6.0.6'
+	compile('mysql':'mysql-connector-java')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
